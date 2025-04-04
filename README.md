@@ -23,7 +23,7 @@ For å kjøre programmet ditt, trenger du bare IP-adressen til serveren, som i d
 - Koder fra Canvas
 
 ## Brukertesting
-Haakon fra medie har brukertestet nettsiden min, han var fornøyd med hvordan oppsetet avnettsiden var men han mente at velkommen siden var veldig tom (oppdatering:).
+Haakon fra medie har brukertestet nettsiden min, han var fornøyd med hvordan oppsetet av nettsiden var og hvor lett det var og bruke den. Men Haakon mente at velkommen siden var veldig tom (oppdatering snenere:).
 
 ## Sikkerhetsprinsipper
 For å beskytte brukernes passord har jeg implementert hashing av passordene før de blir sendt til databasen ved registrering via `registrer.php`.
