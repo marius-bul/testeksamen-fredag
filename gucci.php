@@ -52,3 +52,26 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
   </nav>
   <p>stopper <br> stopper</p>
+
+  <body>
+    <center>
+    <h1>Rate gucci</h1>
+    </center>
+
+
+    <center>
+    <table>
+         <tr>
+            <th>reklame 1</th>
+            <th>reklame 2</th>
+            <th>reklame 3</th>
+         </tr>
+
+         <tr>
+            <td> <a href="https://www.interoptik.no/globalassets/kampanje/merkevarefokus/gucci/digital_interoptik-guc-fw22_website_w-3000-x-h-1500px.jpg?transform=DownFit&width=1800"><img src = "https://www.interoptik.no/globalassets/kampanje/merkevarefokus/gucci/digital_interoptik-guc-fw22_website_w-3000-x-h-1500px.jpg?transform=DownFit&width=1800" width="400" height="350" alt="gucci reklame 1"> </a></td>
+            <td> <a href="https://scontent.fsvg1-1.fna.fbcdn.net/v/t39.30808-6/471409371_1856210638469445_8362207904582359297_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=oPNfixPAZ48Q7kNvwHQ8QGg&_nc_oc=AdlGkh_k2xmmrxHRcbvqFr_6akhJTtChBb7J6nqXZu9liPmdbx7XVe6NFvSxMA-qpYs&_nc_zt=23&_nc_ht=scontent.fsvg1-1.fna&_nc_gid=PB-KEtZ4I6z_Yygtn7dkqQ&oh=00_AYGR5zrEKLi0eBLurLVjpuxrH_GHhGB-GVXiX3NqDhJzqw&oe=67F5563B"><img src = "https://scontent.fsvg1-1.fna.fbcdn.net/v/t39.30808-6/471409371_1856210638469445_8362207904582359297_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=oPNfixPAZ48Q7kNvwHQ8QGg&_nc_oc=AdlGkh_k2xmmrxHRcbvqFr_6akhJTtChBb7J6nqXZu9liPmdbx7XVe6NFvSxMA-qpYs&_nc_zt=23&_nc_ht=scontent.fsvg1-1.fna&_nc_gid=PB-KEtZ4I6z_Yygtn7dkqQ&oh=00_AYGR5zrEKLi0eBLurLVjpuxrH_GHhGB-GVXiX3NqDhJzqw&oe=67F5563B" width="400" height="350" alt="gucci reklame 2"> </a></td>
+            <td> <a href="https://soundvenue.com/wp-content/uploads/2020/09/Gucci-2192x1233.jpg?v=1601461297"><img src = "https://soundvenue.com/wp-content/uploads/2020/09/Gucci-2192x1233.jpg?v=1601461297" width="400" height="350" alt="gucci reklame 3"> </a></td>
+         </tr>
+    </table>
+    </center>
+
