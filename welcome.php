@@ -11,6 +11,7 @@ if (!isset($_SESSION['bruker_id'])) {
 <!DOCTYPE html>
 <html lang="no">
 <head>
+    <link rel="stylesheet" href="nav.css">
     <meta charset="UTF-8">
     <title>Velkommen</title>
 </head>
