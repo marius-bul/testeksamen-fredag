@@ -38,3 +38,10 @@ body {
     color: black;
   }
   
+  #knapp {
+    background-color: red;
+  }
+
+  #knapp:hover {
+    background-color: green;
+  }
