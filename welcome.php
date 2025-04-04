@@ -46,7 +46,7 @@ if (!isset($_SESSION['bruker_id'])) {
   </tr>
 </table>
 
-<button id="knapp">Trenger hjelp?</button>
+<button id="knapp" tabindex="4">Trenger hjelp?</button>
 
 
 </body>
