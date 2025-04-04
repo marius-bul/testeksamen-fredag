@@ -15,9 +15,22 @@ if (!isset($_SESSION['bruker_id'])) {
     <title>Velkommen</title>
 </head>
 <body>
-    <h1>Velkommen, <?php echo $_SESSION['brukernavn']; ?>!</h1>
-    <p>Du er nå logget inn på rating siden.</p>
-    <a href="logout.php">Logg ut</a>
+
+<!-- navigasjonsbaren min !-->
+<nav>
+    <div class="nav-venstre">
+      <a href="#">Hjem</a>
+    </div>
+    <div class="nav-høyre">
+      <a href="#">Rate Gucci</a>
+      <a href="#">Rate Nike</a>
+      <a href="#">Rate Adidas</a>
+    </div>
+  </nav>
+
+  <h1>Velkommen, <?php echo $_SESSION['brukernavn']; ?>!</h1>
+  <p>Du er nå logget inn på rating siden.</p>
+  <a href="logout.php">Logg ut</a>
 </body>
 </html>
 
