@@ -75,3 +75,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </table>
     </center>
 
+    <center>
+    <p>Rate en reklame om gangen, start teksten med "reklame 1 gucci" når du skal skrive inn på "tilbakemelding" og gjør det på alle 3</p>
+    <form action="gucci.php" method="POST">
+        <input type="text" name="stjerne" placeholder="stjerne 1/5" required>
+        <input type="text" name="tilbakemelding" placeholder="tilbakemelding" required>
+        <button type="submit">send inn svar</button>
+    </form>
+    </center>
+</body>
+</html>
+
+
