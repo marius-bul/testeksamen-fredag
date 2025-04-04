@@ -32,3 +32,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $conn->close();
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <link rel="stylesheet" href="nav.css">
+    <meta charset="UTF-8">
+    <title>Registrering</title>
+</head>
+
+<nav>
+    <div class="nav-venstre">
+   <a href="welcome.php">Hjem</a>
+    </div>
+    <div class="nav-høyre">
+      <a href="gucci.php">Rate Gucci</a>
+      <a href="nike.php">Rate Nike</a>
+      <a href="adidas.php">Rate Adidas</a>
+    </div>
+  </nav>
+  <p>stopper <br> stopper</p>
