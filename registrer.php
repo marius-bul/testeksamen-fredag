@@ -20,7 +20,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Sett inn bruker i databasen
     $sql = "INSERT INTO brukere (brukernavn, passord) VALUES ('$brukernavn', '$passord')";
     
-    $resultat = $conn->query($sql);
 
     
     if ($conn->query($sql) === TRUE) {
