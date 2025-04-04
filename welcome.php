@@ -31,14 +31,16 @@ if (!isset($_SESSION['bruker_id'])) {
 
   
   <!-- Det brukeren ser på siden!-->
+   <center>
   <h1>Velkommen, <?php echo $_SESSION['brukernavn']; ?>!</h1>
 
-  <p>Du er nå logget inn på rating siden.</p>
-  
-  <a href="logout.php">Logg ut</a>
+  <p>Du er nå logget inn på rating siden, når du føler deg klar trykk på en av merkene oppe til høyre og begynn og rate!.</p>
+  <center>
 
 
 </body>
+
+<script src = "raintg.js"></script>
 </html>
 
 
