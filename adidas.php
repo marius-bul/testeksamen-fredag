@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   <body>
     <center>
-    <h1>Rate Nike</h1>
+    <h1>Rate Adidas</h1>
     </center>
 
 
@@ -68,15 +68,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
          </tr>
 
          <tr>
-            <td> <a href="https://kampanje.com/globalassets/scanpix/merkevarer/colin-kaepernick-nike-reuters.jpg?format=webp&width=980&quality=90"><img src = "https://kampanje.com/globalassets/scanpix/merkevarer/colin-kaepernick-nike-reuters.jpg?format=webp&width=980&quality=90" width="400" height="350" alt="nike reklame 1"> </a></td>
-            <td> <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgajCSW00jr6kOoLxnCxEKrn6HbRjHMU0yQ3FR9wqIvUp2iIbuoR0xWjwL-PPyteB2n-3bgfsP74Pnvd4MGI9kzPzdjFLxvPBUcjqms2vxJGXA5QLFeyRSW0nRMkqfBSK688Mascu1Ovnsm/s1600/Nike.jpg"><img src = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgajCSW00jr6kOoLxnCxEKrn6HbRjHMU0yQ3FR9wqIvUp2iIbuoR0xWjwL-PPyteB2n-3bgfsP74Pnvd4MGI9kzPzdjFLxvPBUcjqms2vxJGXA5QLFeyRSW0nRMkqfBSK688Mascu1Ovnsm/s1600/Nike.jpg" width="400" height="350" alt="nike reklame 2"> </a></td>
-            <td> <a href="https://imgproxy.finans.dk/6Vip4M7Wf_GKij_ua9pwVQcVSBu0v3_n8dZwATR3bu8/resize:fill:940:0:0/plain/https%3A%2F%2Fbilleder.finans.dk%2Fpictures%2Fimage%2F12181010%2Fuqt8mw%2FALTERNATES%2Fmaster-3_2%2Fkina"><img src = "https://imgproxy.finans.dk/6Vip4M7Wf_GKij_ua9pwVQcVSBu0v3_n8dZwATR3bu8/resize:fill:940:0:0/plain/https%3A%2F%2Fbilleder.finans.dk%2Fpictures%2Fimage%2F12181010%2Fuqt8mw%2FALTERNATES%2Fmaster-3_2%2Fkina" width="400" height="350" alt="nike reklame 3"> </a></td>
+            <td> <a href="https://cdn.markedsforing.dk/app/uploads/20240731125533/Skaermbillede-2024-07-31-kl.-12.05.42-930x623.png"><img src = "https://cdn.markedsforing.dk/app/uploads/20240731125533/Skaermbillede-2024-07-31-kl.-12.05.42-930x623.png" width="400" height="350" alt="adidas reklame 1"> </a></td>
+            <td> <a href="https://blog.tbwa.dk/hs-fs/hubfs/fit-kjgi4BEH5A-945x495.jpeg?width=1890&name=fit-kjgi4BEH5A-945x495.jpeg"><img src = "https://blog.tbwa.dk/hs-fs/hubfs/fit-kjgi4BEH5A-945x495.jpeg?width=1890&name=fit-kjgi4BEH5A-945x495.jpeg" width="400" height="350" alt="adidas reklame 2"> </a></td>
+            <td> <a href="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/1272/cached.offlinehbpl.hbpl.co.uk/news/SUC/campaign_adidas-20150215115450780.jpg"><img src = "https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/1272/cached.offlinehbpl.hbpl.co.uk/news/SUC/campaign_adidas-20150215115450780.jpg" width="400" height="350" alt="adidas reklame 3"> </a></td>
          </tr>
     </table>
     </center>
 
     <center>
-    <p>Rate en reklame om gangen, start teksten med "reklame 1 nike" når du skal skrive inn på "tilbakemelding" og gjør det på alle 3</p>
+    <p>Rate en reklame om gangen, start teksten med "reklame 1 adidas" når du skal skrive inn på "tilbakemelding" og gjør det på alle 3</p>
     <form action="nike.php" method="POST">
         <input type="text" name="stjerne" placeholder="stjerne 1/5" required>
         <input type="text" name="tilbakemelding" placeholder="tilbakemelding" required>
