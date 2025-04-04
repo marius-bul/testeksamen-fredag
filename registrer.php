@@ -42,9 +42,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <h1>Registrer deg</h1>
     <form action="registrer.php" method="POST">
-        <input type="text" name="brukernavn" placeholder="Brukernavn" required>
-        <input type="password" name="passord" placeholder="Passord" required>
-        <button type="submit">Registrer</button>
+        <input type="text" name="brukernavn" placeholder="Brukernavn" required tabindex="1">
+        <input type="password" name="passord" placeholder="Passord" required tabindex="2">
+        <button type="submit" tabindex="3">Registrer</button>
     </form>
+    <a href="welcome.php"tabindex="4" >tilbake</a>
 </body>
 </html>

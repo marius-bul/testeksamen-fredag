@@ -52,9 +52,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <h1>Logg inn</h1>
     <form action="login.php" method="POST">
-        <input type="text" name="brukernavn" placeholder="Brukernavn" required>
-        <input type="password" name="passord" placeholder="Passord" required>
-        <button type="submit">Logg inn</button>
+        <input type="text" name="brukernavn" placeholder="Brukernavn" required tabindex="1">
+        <input type="password" name="passord" placeholder="Passord" required tabindex="2">
+        <button type="submit" tabindex="3">Logg inn</button>
     </form>
+    <a href="welcome.php" tabindex="4">tilbake</a>
 </body>
 </html>

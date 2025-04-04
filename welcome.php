@@ -22,9 +22,9 @@ if (!isset($_SESSION['bruker_id'])) {
    <!--<a href="#">Hjem</a>!-->
     </div>
     <div class="nav-høyre">
-      <a href="gucci.php">Rate Gucci</a>
-      <a href="nike.php">Rate Nike</a>
-      <a href="adidas.php">Rate Adidas</a>
+      <a href="gucci.php" tabindex="1">Rate Gucci</a>
+      <a href="nike.php" tabindex="2">Rate Nike</a>
+      <a href="adidas.php" tabindex="3">Rate Adidas</a>
     </div>
   </nav>
   <p>stopper <br> stopper</p>

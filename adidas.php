@@ -43,11 +43,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <nav>
     <div class="nav-venstre">
-   <a href="welcome.php">Hjem</a>
+   <a href="welcome.php" tabindex="1">Hjem</a>
     </div>
     <div class="nav-høyre">
-      <a href="gucci.php">Rate Gucci</a>
-      <a href="nike.php">Rate Nike</a>
+      <a href="gucci.php" tabindex="2">Rate Gucci</a>
+      <a href="nike.php" tabindex="3">Rate Nike</a>
       <!--<a href="adidas.php">Rate Adidas</a>!-->
     </div>
   </nav>
@@ -78,9 +78,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <center>
     <p>Rate en reklame om gangen, start teksten med "reklame 1 adidas" når du skal skrive inn på "tilbakemelding" og gjør det på alle 3</p>
     <form action="nike.php" method="POST">
-        <input type="text" name="stjerne" placeholder="stjerne 1/5" required>
-        <input type="text" name="tilbakemelding" placeholder="tilbakemelding" required>
-        <button type="submit">send inn svar</button>
+        <input type="text" name="stjerne" placeholder="stjerne 1/5" required tabindex="4">
+        <input type="text" name="tilbakemelding" placeholder="tilbakemelding" required tabindex="5">
+        <button type="submit" tabindex="6">send inn svar</button>
     </form>
     </center>
 </body>
